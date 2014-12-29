@@ -1,5 +1,8 @@
 # gfm.css changelog
 
+## v1.0.1
+* fix variable override bug (use `!default`)
+
 ## v1.0.0
 * let's call it stable
 

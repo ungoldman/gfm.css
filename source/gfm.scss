@@ -1,26 +1,26 @@
-$gfm-body-font-size: 16px;
-$gfm-code-font-size: 12px;
+$gfm-body-font-size: 16px !default;
+$gfm-code-font-size: 12px !default;
 
 $gfm-body-font-family:  'Helvetica Neue',
                         Helvetica,
                         'Segoe UI',
                         Arial,
                         freesans,
-                        sans-serif;
+                        sans-serif !default;
 $gfm-code-font-family:  Consolas,
                         'Liberation Mono',
                         Menlo,
                         Courier,
-                        monospace;
+                        monospace !default;
 $gfm-input-font-family: Helvetica,
                         Arial,
                         freesans,
                         clean,
                         sans-serif,
-                        "Segoe UI Emoji",
-                        "Segoe UI Symbol";
+                        'Segoe UI Emoji',
+                        'Segoe UI Symbol' !default;
 
-$gfm-header-font-family: $gfm-body-font-family;
+$gfm-header-font-family: $gfm-body-font-family !default;
 
 .markdown-body {
   -ms-text-size-adjust: 100%;

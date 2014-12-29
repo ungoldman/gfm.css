@@ -37,11 +37,11 @@ $gfm-input-font-family
 $gfm-header-font-family
 ```
 
-This way you can take `gfm.scss` as a base set of styles and go from there with your own style flavor.
+This way you can take `gfm.scss` as a base set of styles and go from there with your own style flavor. Note that you need to set any variables you want to override *before* the import statement.
 
-### Note
+### Extra
 
-Github's octicon anchors and syntax highlighting styles are not included in the default build, but they're available in `source/` if you need them.
+Github's octicon anchors (for header links) and syntax highlighting styles are not included in the default build, but they're available in `source/` if you need them.
 
 ## Development
 

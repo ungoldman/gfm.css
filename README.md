@@ -57,4 +57,4 @@ Build `gfm.css` from `source/` by running `npm run build`.
 
 [ISC](LICENSE)
 
-The source is a cleaned and modified version of [github-markdown-css](https://github.com/sindresorhus/github-markdown-css) which was scraped by @sindresorhus. Original credit for the style itself is of course due to github.
+The source is a cleaned and modified version of [github-markdown-css](https://github.com/sindresorhus/github-markdown-css) which was scraped by @[sindresorhus](https://github.com/sindresorhus). Original credit for the style itself is of course due to github.

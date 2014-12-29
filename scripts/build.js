@@ -1,12 +1,34 @@
 var fs = require('fs');
 var sass = require('node-sass');
 var CleanCSS = require('clean-css');
-var pkg = require('./package.json');
+var pkg = require('../package.json');
+var md = require('markdown-it')('full', {
+  html: true,
+  linkify: true,
+  typographer: true
+});
 
 sass.render({
   file: './source/gfm.scss',
   success: buildStyle
 });
+
+buildSite();
+
+function buildSite () {
+  var header = renderMd('./site/header.md');
+  var readme = renderMd('./README.md');
+  var guide = renderMd('./site/guide.md');
+  var footer = renderMd('./site/footer.md');
+  fs.writeFile('index.html', header + readme + guide + footer, function (err) {
+    if (err) { throw err; }
+    console.log('built index.html');
+  });
+}
+
+function renderMd (filepath) {
+  return md.render(fs.readFileSync(filepath, { encoding: 'utf8' }));
+}
 
 function buildStyle (result) {
   var minified = new CleanCSS().minify(result.css).styles;

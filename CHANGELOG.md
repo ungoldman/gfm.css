@@ -1,5 +1,9 @@
 # gfm.css changelog
 
+## v0.1.3
+* move `build.js` to `scripts/`
+* make a site
+
 ## v0.1.2
 * remove `files` from `package.json` so that `source/` can be accessed from `node_modules/`
 

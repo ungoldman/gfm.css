@@ -1,6 +1,6 @@
 # gfm.css
 
-Styles for github flavored markdown.
+Styles for [github flavored markdown](https://help.github.com/articles/github-flavored-markdown/).
 
 ## Usage
 
@@ -24,9 +24,11 @@ You can also use this as a Sass library.
 @import '../node_modules/gfm.css/source/gfm.scss'
 ```
 
-Sass Bonus: the following variables can be overridden:
+#### Bonus
 
-```
+The following variables can be overridden:
+
+```scss
 $gfm-body-font-size
 $gfm-code-font-size
 $gfm-body-font-family
@@ -36,6 +38,8 @@ $gfm-header-font-family
 ```
 
 This way you can take `gfm.scss` as a base set of styles and go from there with your own style flavor.
+
+### Note
 
 Github's octicon anchors and syntax highlighting styles are not included in the default build, but they're available in `source/` if you need them.
 

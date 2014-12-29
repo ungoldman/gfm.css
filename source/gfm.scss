@@ -1,18 +1,18 @@
-$mdb-font-size:      16px;
-$mdb-code-font-size: 12px;
+$gfm-body-font-size: 16px;
+$gfm-code-font-size: 12px;
 
-$mdb-font-family:       'Helvetica Neue',
+$gfm-body-font-family:  'Helvetica Neue',
                         Helvetica,
                         'Segoe UI',
                         Arial,
                         freesans,
                         sans-serif;
-$mdb-code-font-family:  Consolas,
+$gfm-code-font-family:  Consolas,
                         'Liberation Mono',
                         Menlo,
                         Courier,
                         monospace;
-$mdb-input-font-family: Helvetica,
+$gfm-input-font-family: Helvetica,
                         Arial,
                         freesans,
                         clean,
@@ -20,15 +20,15 @@ $mdb-input-font-family: Helvetica,
                         "Segoe UI Emoji",
                         "Segoe UI Symbol";
 
-$mdb-header-font-family: $mdb-font-family;
+$gfm-header-font-family: $gfm-body-font-family;
 
 .markdown-body {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   color: #333;
   overflow: hidden;
-  font-family: $mdb-font-family;
-  font-size: $mdb-font-size;
+  font-family: $gfm-body-font-family;
+  font-size: $gfm-body-font-size;
   line-height: 1.6;
   word-wrap: break-word;
 
@@ -70,7 +70,7 @@ $mdb-header-font-family: $mdb-font-family;
   table,
   pre {
     margin-top: 0;
-    margin-bottom: $mdb-font-size;
+    margin-bottom: $gfm-body-font-size;
   }
 
   /* headers */
@@ -81,10 +81,10 @@ $mdb-header-font-family: $mdb-font-family;
   h4,
   h5,
   h6 {
-    font-family: $mdb-header-font-family;
+    font-family: $gfm-header-font-family;
     position: relative;
     margin-top: 1em;
-    margin-bottom: $mdb-font-size;
+    margin-bottom: $gfm-body-font-size;
     font-weight: bold;
     line-height: 1.4;
   }
@@ -107,8 +107,8 @@ $mdb-header-font-family: $mdb-font-family;
   code,
   pre,
   kbd {
-    font-family: $mdb-code-font-family;
-    font-size: $mdb-code-font-size;
+    font-family: $gfm-code-font-family;
+    font-size: $gfm-code-font-size;
   }
 
   code {
@@ -128,7 +128,7 @@ $mdb-header-font-family: $mdb-font-family;
   pre {
     overflow: auto;
     word-wrap: normal;
-    padding: $mdb-font-size;
+    padding: $gfm-body-font-size;
     overflow: auto;
     font-size: 85%;
     line-height: 1.45;
@@ -182,7 +182,7 @@ $mdb-header-font-family: $mdb-font-family;
     line-height: normal;
     font-size: 13px;
     line-height: 1.4;
-    font-family: $mdb-input-font-family;
+    font-family: $gfm-input-font-family;
 
     &[disabled] {
       cursor: default;
@@ -226,7 +226,7 @@ $mdb-header-font-family: $mdb-font-family;
     background: transparent;
     height: 4px;
     padding: 0;
-    margin: $mdb-font-size 0;
+    margin: $gfm-body-font-size 0;
     background-color: #e7e7e7;
     border: 0 none;
 
@@ -290,7 +290,7 @@ $mdb-header-font-family: $mdb-font-family;
     }
   }
 
-  li>p { margin-top: $mdb-font-size; }
+  li>p { margin-top: $gfm-body-font-size; }
 
   /* definitions */
 
@@ -303,15 +303,15 @@ $mdb-header-font-family: $mdb-font-family;
 
     dt {
       padding: 0;
-      margin-top: $mdb-font-size;
+      margin-top: $gfm-body-font-size;
       font-size: 1em;
       font-style: italic;
       font-weight: bold;
     }
 
     dd {
-      padding: 0 $mdb-font-size;
-      margin-bottom: $mdb-font-size;
+      padding: 0 $gfm-body-font-size;
+      margin-bottom: $gfm-body-font-size;
     }
   }
 }

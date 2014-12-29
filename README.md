@@ -27,15 +27,15 @@ You can also use this as a Sass library.
 Sass Bonus: the following variables can be overridden:
 
 ```
-$mdb-font-size
-$mdb-code-font-size
-$mdb-font-family
-$mdb-code-font-family
-$mdb-input-font-family
-$mdb-header-font-family
+$gfm-body-font-size
+$gfm-code-font-size
+$gfm-body-font-family
+$gfm-code-font-family
+$gfm-input-font-family
+$gfm-header-font-family
 ```
 
-This way you can take gfm.scss as a base set of styles and go from there with your own style flavor, e.g. *normalize.css + gfm.css + your kewl fonts*.
+This way you can take `gfm.scss` as a base set of styles and go from there with your own style flavor.
 
 Github's octicon anchors and syntax highlighting styles are not included in the default build, but they're available in `source/` if you need them.
 

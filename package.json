@@ -1,6 +1,6 @@
 {
   "name": "gfm.css",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Styles for github flavored markdown.",
   "files": [
     "gfm.css"

@@ -20,6 +20,7 @@
 <body>
 <main class="container markdown-body">
 <h1>gfm.css</h1>
+<p><a href="https://npmjs.org/package/gfm.css"><img src="https://nodei.co/npm/gfm.css.png?downloads=true" alt="NPM"></a></p>
 <p>Styles for <a href="https://help.github.com/articles/github-flavored-markdown/">github flavored markdown</a>.</p>
 <h2>Usage</h2>
 <pre><code>npm install gfm.css
@@ -41,9 +42,9 @@ $gfm-code-font-family
 $gfm-input-font-family
 $gfm-header-font-family
 </code></pre>
-<p>This way you can take <code>gfm.scss</code> as a base set of styles and go from there with your own style flavor.</p>
-<h3>Note</h3>
-<p>Github’s octicon anchors and syntax highlighting styles are not included in the default build, but they’re available in <code>source/</code> if you need them.</p>
+<p>This way you can take <code>gfm.scss</code> as a base set of styles and go from there with your own style flavor. Note that you need to set any variables you want to override <em>before</em> the import statement.</p>
+<h3>Extra</h3>
+<p>Github’s octicon anchors (for header links) and syntax highlighting styles are not included in the default build, but they’re available in <code>source/</code> if you need them.</p>
 <h2>Development</h2>
 <h3>Install</h3>
 <p>Install dependencies with <code>npm install</code>.</p>
@@ -53,7 +54,8 @@ $gfm-header-font-family
 <p>Build <code>gfm.css</code> from <code>source/</code> by running <code>npm run build</code>.</p>
 <h2>License</h2>
 <p><a href="LICENSE">ISC</a></p>
-<p>The source is a cleaned and modified version of <a href="https://github.com/sindresorhus/github-markdown-css">github-markdown-css</a> which was scraped by @<a href="https://github.com/sindresorhus">sindresorhus</a>. Original credit for the style itself is of course due to github.</p>
+<h3>Credit</h3>
+<p>The source is a cleaned and modified version of <a href="https://github.com/sindresorhus/github-markdown-css">github-markdown-css</a> which was scraped by <a href="https://github.com/sindresorhus">sindresorhus</a>. Original credit for the style itself is of course due to github.</p>
 <hr>
 <h1>Style Guide</h1>
 <p><strong>The following is a style guide showing how elements are styled with <a href="https://github.com/ngoldman/gfm.css"><code>gfm.css</code></a>.</strong></p>

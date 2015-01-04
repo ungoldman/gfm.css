@@ -1,5 +1,7 @@
 # gfm.css
 
+[![NPM](https://nodei.co/npm/gfm.css.png?downloads=true)](https://npmjs.org/package/gfm.css)
+
 Styles for [github flavored markdown](https://help.github.com/articles/github-flavored-markdown/).
 
 ## Usage
@@ -61,4 +63,6 @@ Build `gfm.css` from `source/` by running `npm run build`.
 
 [ISC](LICENSE)
 
-The source is a cleaned and modified version of [github-markdown-css](https://github.com/sindresorhus/github-markdown-css) which was scraped by @[sindresorhus](https://github.com/sindresorhus). Original credit for the style itself is of course due to github.
+### Credit
+
+The source is a cleaned and modified version of [github-markdown-css](https://github.com/sindresorhus/github-markdown-css) which was scraped by [sindresorhus](https://github.com/sindresorhus). Original credit for the style itself is of course due to github.

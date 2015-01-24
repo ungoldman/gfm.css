@@ -198,7 +198,7 @@ $gfm-header-font-family: $gfm-body-font-family !default;
   /* blockquotes */
 
   blockquote {
-    margin: 0;
+    margin: 0 0 $gfm-body-font-size;
     padding: 0 15px;
     color: #777;
     border-left: 4px solid #ddd;

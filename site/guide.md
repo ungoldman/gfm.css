@@ -75,7 +75,6 @@ The rest borrowed from https://markdown-it.github.io/
 ##### h5 Heading
 ###### h6 Heading
 
-
 ## Horizontal Rules
 
 ___
@@ -83,7 +82,6 @@ ___
 ---
 
 ***
-
 
 ## Typographic replacements
 
@@ -96,7 +94,6 @@ test.. test... test..... test?..... test!....
 !!!!!! ???? ,,  -- ---
 
 "Smartypants, double quotes" and 'single quotes'
-
 
 ## Emphasis
 
@@ -118,14 +115,13 @@ Subscript: H~2~O
 
 ==Marked text==
 
-
 ## Blockquotes
-
 
 > Blockquotes can also be nested...
 >> ...by using additional greater-than signs right next to each other...
 > > > ...or with spaces between arrows.
 
+This is a paragraph below a blockquote.
 
 ## Lists
 
@@ -266,11 +262,10 @@ Term 2
   ~ Definition 2a
   ~ Definition 2b
 
-
 ## Abbreviations
 
 This is HTML abbreviation example.
 
-It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
+It converts "HTML", but keeps intact partial entries like "xxxHTMLyyy" and so on.
 
 *[HTML]: Hyper Text Markup Language

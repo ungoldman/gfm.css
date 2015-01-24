@@ -1,5 +1,8 @@
 # gfm.css changelog
 
+## v1.0.2
+* fix blockquote bottom margin issue
+
 ## v1.0.1
 * fix variable override bug (use `!default`)
 

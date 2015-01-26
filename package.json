@@ -1,6 +1,6 @@
 {
   "name": "gfm.css",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Styles for github flavored markdown.",
   "files": [
     "gfm.css",
@@ -28,7 +28,7 @@
   "bugs": {
     "url": "https://github.com/ngoldman/gfm.css/issues"
   },
-  "homepage": "https://code.ngoldman.me/gfm.css/",
+  "homepage": "http://ngoldman.github.io/gfm.css/",
   "devDependencies": {
     "clean-css": "^3.0.1",
     "markdown-it": "^2.2.0",

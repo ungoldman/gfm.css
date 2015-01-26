@@ -1,31 +1,35 @@
-$gfm-body-font-size: 16px !default;
-$gfm-code-font-size: 12px !default;
+// defaults
 
-$gfm-body-font-family:  'Helvetica Neue',
-                        Helvetica,
-                        'Segoe UI',
-                        Arial,
-                        freesans,
-                        sans-serif !default;
-$gfm-code-font-family:  Consolas,
-                        'Liberation Mono',
-                        Menlo,
-                        Courier,
-                        monospace !default;
-$gfm-input-font-family: Helvetica,
-                        Arial,
-                        freesans,
-                        clean,
-                        sans-serif,
-                        'Segoe UI Emoji',
-                        'Segoe UI Symbol' !default;
+$gfm-body-font-size:      16px !default;
+$gfm-code-font-size:      12px !default;
+$gfm-body-color:          #333;
+$gfm-link-color:          #4183c4;
+$gfm-body-font-family:    'Helvetica Neue',
+                          Helvetica,
+                          'Segoe UI',
+                          Arial,
+                          freesans,
+                          sans-serif !default;
+$gfm-code-font-family:    Consolas,
+                          'Liberation Mono',
+                          Menlo,
+                          Courier,
+                          monospace !default;
+$gfm-input-font-family:   Helvetica,
+                          Arial,
+                          freesans,
+                          clean,
+                          sans-serif,
+                          'Segoe UI Emoji',
+                          'Segoe UI Symbol' !default;
+$gfm-header-font-family:  $gfm-body-font-family !default;
 
-$gfm-header-font-family: $gfm-body-font-family !default;
+// all styles scoped to `.markdown-body`
 
 .markdown-body {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  color: #333;
+  color: $gfm-body-color;
   overflow: hidden;
   font-family: $gfm-body-font-family;
   font-size: $gfm-body-font-size;
@@ -44,7 +48,7 @@ $gfm-header-font-family: $gfm-body-font-family !default;
 
   a {
     background: transparent;
-    color: #4183c4;
+    color: $gfm-link-color;
     text-decoration: none;
 
     &:active,

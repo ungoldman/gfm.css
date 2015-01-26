@@ -1,5 +1,10 @@
 # gfm.css changelog
 
+## v1.0.3
+* add `$gfm-body-color` and `$gfm-link-color` variables
+* fix homepage url in package.json
+* add defaults info to readme
+
 ## v1.0.2
 * fix blockquote bottom margin issue
 

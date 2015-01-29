@@ -1,5 +1,8 @@
 # gfm.css changelog
 
+## v1.0.4
+* add boolean to easily get rid of header bottom borders
+
 ## v1.0.3
 * add `$gfm-body-color` and `$gfm-link-color` variables
 * fix homepage url in package.json

@@ -23,6 +23,7 @@ $gfm-input-font-family:   Helvetica,
                           'Segoe UI Emoji',
                           'Segoe UI Symbol' !default;
 $gfm-header-font-family:  $gfm-body-font-family !default;
+$gfm-header-border:       'true';
 
 // all styles scoped to `.markdown-body`
 
@@ -96,7 +97,9 @@ $gfm-header-font-family:  $gfm-body-font-family !default;
   h1,
   h2 {
     padding-bottom: 0.3em;
-    border-bottom: 1px solid #eee;
+    @if $gfm-header-border == 'true' {
+      border-bottom: 1px solid #eee;
+    }
   }
 
   h1 { font-size: 2.25em; line-height: 1.2; }
@@ -125,7 +128,7 @@ $gfm-header-font-family:  $gfm-body-font-family !default;
     &:before,
     &:after {
       letter-spacing: -0.2em;
-      content: "\00a0";
+      content: '\00a0';
     }
   }
 
@@ -192,7 +195,7 @@ $gfm-header-font-family:  $gfm-body-font-family !default;
       cursor: default;
     }
 
-    &[type="checkbox"] {
+    &[type='checkbox'] {
       -moz-box-sizing: border-box;
       box-sizing: border-box;
       padding: 0;
@@ -236,13 +239,13 @@ $gfm-header-font-family:  $gfm-body-font-family !default;
 
     &:before {
       display: table;
-      content: "";
+      content: '';
     }
 
     &:after {
       display: table;
       clear: both;
-      content: "";
+      content: '';
     }
   }
 

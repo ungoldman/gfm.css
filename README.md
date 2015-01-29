@@ -86,7 +86,7 @@ Build `gfm.css` from `source/` by running `npm run build`.
 
 ## License
 
-[ISC](LICENSE)
+[ISC](LICENSE.md)
 
 ### Credit
 

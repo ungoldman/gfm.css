@@ -63,7 +63,7 @@ $gfm-input-font-family:   Helvetica,
                           'Segoe UI Emoji',
                           'Segoe UI Symbol' !default;
 $gfm-header-font-family:  $gfm-body-font-family !default;
-$gfm-header-border:       'true';
+$gfm-header-border:       'true' !default;
 ```
 
 ### Extra

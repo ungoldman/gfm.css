@@ -1,5 +1,8 @@
 # gfm.css changelog
 
+## v1.0.5
+* fix header bottom border so it acts like a default
+
 ## v1.0.4
 * add boolean to easily get rid of header bottom borders
 

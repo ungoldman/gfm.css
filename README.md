@@ -1,8 +1,9 @@
 # gfm.css
 
-Styles for [github flavored markdown](https://help.github.com/articles/github-flavored-markdown/).
+[![](https://img.shields.io/npm/v/gfm.css.svg?style=flat-square)](https://www.npmjs.com/package/gfm.css)
+[![](https://img.shields.io/travis/ngoldman/gfm.css.svg?style=flat-square)](https://travis-ci.org/ngoldman/gfm.css)
 
-[![NPM](https://nodei.co/npm/gfm.css.png?downloads=true&stars=true)](https://npmjs.org/package/gfm.css)
+Styles for [github flavored markdown](https://help.github.com/articles/github-flavored-markdown/).
 
 ## Usage
 
@@ -83,6 +84,14 @@ Edit `scss` source files in `source/`.
 ### Build
 
 Build `gfm.css` from `source/` by running `npm run build`.
+
+## Contributing
+
+`gfm.css` is an **OPEN Open Source Project**. This means that:
+
+> Individuals making significant and valuable contributions are given commit-access to the project to contribute as they see fit. This project is more like an open wiki than a standard guarded open source project.
+
+See the [CONTRIBUTING.md](CONTRIBUTING.md) file for more details.
 
 ## License
 

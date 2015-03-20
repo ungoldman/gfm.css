@@ -1,37 +1,38 @@
 {
   "name": "gfm.css",
-  "version": "1.0.5",
   "description": "Styles for github flavored markdown.",
+  "version": "1.0.6",
+  "author": "Nate Goldman <nate@ngoldman.me>",
+  "bugs": {
+    "url": "https://github.com/ngoldman/gfm.css/issues"
+  },
+  "devDependencies": {
+    "clean-css": "^3.1.8",
+    "markdown-it": "^4.0.1",
+    "node-sass": "^2.0.1",
+    "standard": "^3.2.0"
+  },
   "files": [
     "gfm.css",
     "source/gfm.scss",
     "source/gfm-octicon-anchors.scss",
     "source/gfm-syntax.scss"
   ],
-  "scripts": {
-    "build": "node scripts/build.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "homepage": "http://ngoldman.github.io/gfm.css/",
+  "keywords": [
+    "css",
+    "markdown",
+    "sass",
+    "scss",
+    "style"
+  ],
+  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "https://github.com/ngoldman/gfm.css.git"
   },
-  "keywords": [
-    "style",
-    "markdown",
-    "css",
-    "sass",
-    "scss"
-  ],
-  "author": "Nate Goldman <nate@ngoldman.me>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ngoldman/gfm.css/issues"
-  },
-  "homepage": "http://ngoldman.github.io/gfm.css/",
-  "devDependencies": {
-    "clean-css": "^3.0.1",
-    "markdown-it": "^2.2.0",
-    "node-sass": "^2.0.0-beta"
+  "scripts": {
+    "build": "node scripts/build.js",
+    "test": "standard"
   }
 }

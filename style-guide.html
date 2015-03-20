@@ -29,11 +29,20 @@
 <h2>Header 2</h2>
 <table>
 <thead>
-<tr><th>h</th><th>Long header</th></tr>
+<tr>
+<th>h</th>
+<th>Long header</th>
+</tr>
 </thead>
 <tbody>
-<tr><td>abc</td><td>def</td></tr>
-<tr><td>abc2</td><td>def2</td></tr>
+<tr>
+<td>abc</td>
+<td>def</td>
+</tr>
+<tr>
+<td>abc2</td>
+<td>def2</td>
+</tr>
 </tbody>
 </table>
 <p>Which ZFC cannot determine more net directional selection on the objects. Discovered during the theory of transmission mathematical models there may be difficulties with the possibility. Of <code>1 f(06)</code> and calculation of a basic. Principle of the treasury program variable in <a href="#faker-link">Kerr geometry gravitational</a>.</p>
@@ -114,11 +123,11 @@ getPrimes(1000);
 <p><strong>This is bold text</strong></p>
 <p><em>This is italic text</em></p>
 <p><em>This is italic text</em></p>
-<p><del>Deleted text</del></p>
-<p>Superscript: 19<sup>th</sup></p>
-<p>Subscript: H<sub>2</sub>O</p>
-<p><ins>Inserted text</ins></p>
-<p><mark>Marked text</mark></p>
+<p><s>Deleted text</s></p>
+<p>Superscript: 19^th^</p>
+<p>Subscript: H~2~O</p>
+<p>++Inserted text++</p>
+<p>==Marked text==</p>
 <h2>Blockquotes</h2>
 <blockquote>
 <p>Blockquotes can also be nested…</p>
@@ -188,23 +197,47 @@ console.log(foo(5));
 <h2>Tables</h2>
 <table>
 <thead>
-<tr><th>Option</th><th>Description</th></tr>
+<tr>
+<th>Option</th>
+<th>Description</th>
+</tr>
 </thead>
 <tbody>
-<tr><td>data</td><td>path to data files to supply the data that will be passed into templates.</td></tr>
-<tr><td>engine</td><td>engine to be used for processing templates. Handlebars is the default.</td></tr>
-<tr><td>ext</td><td>extension to be used for dest files.</td></tr>
+<tr>
+<td>data</td>
+<td>path to data files to supply the data that will be passed into templates.</td>
+</tr>
+<tr>
+<td>engine</td>
+<td>engine to be used for processing templates. Handlebars is the default.</td>
+</tr>
+<tr>
+<td>ext</td>
+<td>extension to be used for dest files.</td>
+</tr>
 </tbody>
 </table>
 <p>Right aligned columns</p>
 <table>
 <thead>
-<tr><th style="text-align:right">Option</th><th style="text-align:right">Description</th></tr>
+<tr>
+<th style="text-align:right">Option</th>
+<th style="text-align:right">Description</th>
+</tr>
 </thead>
 <tbody>
-<tr><td style="text-align:right">data</td><td style="text-align:right">path to data files to supply the data that will be passed into templates.</td></tr>
-<tr><td style="text-align:right">engine</td><td style="text-align:right">engine to be used for processing templates. Handlebars is the default.</td></tr>
-<tr><td style="text-align:right">ext</td><td style="text-align:right">extension to be used for dest files.</td></tr>
+<tr>
+<td style="text-align:right">data</td>
+<td style="text-align:right">path to data files to supply the data that will be passed into templates.</td>
+</tr>
+<tr>
+<td style="text-align:right">engine</td>
+<td style="text-align:right">engine to be used for processing templates. Handlebars is the default.</td>
+</tr>
+<tr>
+<td style="text-align:right">ext</td>
+<td style="text-align:right">extension to be used for dest files.</td>
+</tr>
 </tbody>
 </table>
 <h2>Links</h2>
@@ -218,49 +251,34 @@ console.log(foo(5));
 <p><img src="https://octodex.github.com/images/dojocat.jpg" alt="Alt text" title="The Dojocat"></p>
 <p>With a reference later in the document defining the URL location:</p>
 <h2>Footnotes</h2>
-<p>Footnote 1 link<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>.</p>
-<p>Footnote 2 link<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>.</p>
-<p>Inline footnote<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup> definition.</p>
-<p>Duplicated footnote reference<sup class="footnote-ref"><a href="#fn2" id="fnref2:1">[2]</a></sup>.</p>
-<h2>Definition lists</h2>
-<dl>
-<dt>Term 1</dt>
-<dd><p>Definition 1
-with lazy continuation.</p>
-</dd>
-<dt>Term 2 with <em>inline markup</em></dt>
-<dd><p>Definition 2</p>
-<pre><code>  { some code, part of Definition 2 }
+<p>Footnote 1 link[^first].</p>
+<p>Footnote 2 link[^second].</p>
+<p>Inline footnote^[Text of inline footnote] definition.</p>
+<p>Duplicated footnote reference[^second].</p>
+<p>[^first]: Footnote <strong>can have markup</strong></p>
+<pre><code>and multiple paragraphs.
 </code></pre>
-<p>Third paragraph of definition 2.</p>
-</dd>
-</dl>
+<p>[^second]: Footnote text.</p>
+<h2>Definition lists</h2>
+<p>Term 1</p>
+<p>:   Definition 1
+with lazy continuation.</p>
+<p>Term 2 with <em>inline markup</em></p>
+<p>:   Definition 2</p>
+<pre><code>    { some code, part of Definition 2 }
+
+Third paragraph of definition 2.
+</code></pre>
 <p><em>Compact style:</em></p>
-<dl>
-<dt>Term 1</dt>
-<dd>Definition 1
-</dd>
-<dt>Term 2</dt>
-<dd>Definition 2a
-</dd>
-<dd>Definition 2b
-</dd>
-</dl>
+<p>Term 1
+~ Definition 1</p>
+<p>Term 2
+~ Definition 2a
+~ Definition 2b</p>
 <h2>Abbreviations</h2>
-<p>This is <abbr title="Hyper Text Markup Language">HTML</abbr> abbreviation example.</p>
-<p>It converts &quot;<abbr title="Hyper Text Markup Language">HTML</abbr>&quot;, but keeps intact partial entries like “xxxHTMLyyy” and so on.</p>
-<hr class="footnotes-sep">
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1"  class="footnote-item"><p>Footnote <strong>can have markup</strong></p>
-<p>and multiple paragraphs. <a href="#fnref1" class="footnote-backref">↩</a></p>
-</li>
-<li id="fn2"  class="footnote-item"><p>Footnote text. <a href="#fnref2" class="footnote-backref">↩</a> <a href="#fnref2:1" class="footnote-backref">↩</a></p>
-</li>
-<li id="fn3"  class="footnote-item"><p>Text of inline footnote <a href="#fnref3" class="footnote-backref">↩</a></p>
-</li>
-</ol>
-</section>
+<p>This is HTML abbreviation example.</p>
+<p>It converts “HTML”, but keeps intact partial entries like “xxxHTMLyyy” and so on.</p>
+<p>*[HTML]: Hyper Text Markup Language</p>
 </main>
 <a href="https://github.com/ngoldman/gfm.css"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
 </body>

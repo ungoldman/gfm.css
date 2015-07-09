@@ -5,6 +5,9 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## v1.0.6
 * rebuild distribution from source with updated dependencies
 
+## Unreleased
+* add style field for css via npm use cases
+
 ## v1.0.5
 * fix header bottom border so it acts like a default
 

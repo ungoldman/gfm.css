@@ -35,5 +35,6 @@
     "build": "node scripts/build.js",
     "test": "standard"
   },
-  "style": "gfm.css"
+  "style": "gfm.css",
+  "main": "index.js"
 }

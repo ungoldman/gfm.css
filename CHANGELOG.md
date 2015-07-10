@@ -2,9 +2,9 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-## Unreleased
-* add style field for css via npm use cases
-* add main field and blank index.js for parcelify
+## v1.1.0
+* add `style` field for [css via npm](https://github.com/sethvincent/css-via-npm/) use cases
+* add `main` field and blank index.js for [parcelify](https://github.com/rotundasoftware/parcelify/issues/28)
 
 ## v1.0.6
 * rebuild distribution from source with updated dependencies

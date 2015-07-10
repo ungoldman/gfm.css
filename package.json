@@ -1,7 +1,7 @@
 {
   "name": "gfm.css",
   "description": "Styles for github flavored markdown.",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "author": "Nate Goldman <nate@ngoldman.me>",
   "bugs": {
     "url": "https://github.com/ngoldman/gfm.css/issues"

@@ -9,7 +9,7 @@
   "devDependencies": {
     "clean-css": "^3.1.8",
     "markdown-it": "^4.0.1",
-    "node-sass": "^2.0.1",
+    "node-sass": "^3.4.2",
     "standard": "^3.2.0"
   },
   "files": [

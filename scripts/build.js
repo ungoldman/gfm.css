@@ -23,7 +23,7 @@ function buildSite () {
   var guide = md.render(fs.readFileSync('./style-guide.md', opts))
 
   fs.writeFile('index.html', header +
-  '<strong>readme • <a href="style-guide.html">style guide</a> • <a href="https://github.com/ngoldman/gfm.css">source</a></strong>' +
+  '<strong>readme • <a href="style-guide.html">style guide</a> • <a href="https://github.com/ungoldman/gfm.css">source</a></strong>' +
   readme + footer, function (err) {
       if (err) throw err
       console.log('built index.html')

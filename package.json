@@ -2,9 +2,9 @@
   "name": "gfm.css",
   "description": "Styles for github flavored markdown.",
   "version": "1.1.1",
-  "author": "Nate Goldman <nate@ngoldman.me>",
+  "author": "Nate Goldman <ungoldman@gmail.com>",
   "bugs": {
-    "url": "https://github.com/ngoldman/gfm.css/issues"
+    "url": "https://github.com/ungoldman/gfm.css/issues"
   },
   "devDependencies": {
     "clean-css": "^3.1.8",
@@ -18,7 +18,7 @@
     "source/gfm-octicon-anchors.scss",
     "source/gfm-syntax.scss"
   ],
-  "homepage": "http://ngoldman.github.io/gfm.css/",
+  "homepage": "http://ungoldman.github.io/gfm.css/",
   "keywords": [
     "css",
     "markdown",
@@ -29,7 +29,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ngoldman/gfm.css.git"
+    "url": "https://github.com/ungoldman/gfm.css.git"
   },
   "scripts": {
     "build": "node scripts/build.js",

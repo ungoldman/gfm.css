@@ -1,7 +1,7 @@
 # gfm.css
 
 [![](https://img.shields.io/npm/v/gfm.css.svg?style=flat-square)](https://www.npmjs.com/package/gfm.css)
-[![](https://img.shields.io/travis/ngoldman/gfm.css.svg?style=flat-square)](https://travis-ci.org/ngoldman/gfm.css)
+[![](https://img.shields.io/travis/ungoldman/gfm.css.svg?style=flat-square)](https://travis-ci.org/ungoldman/gfm.css)
 
 Styles for [github flavored markdown](https://help.github.com/articles/github-flavored-markdown/).
 

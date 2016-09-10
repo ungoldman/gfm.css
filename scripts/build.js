@@ -30,7 +30,7 @@ function buildSite () {
     })
 
   fs.writeFile('style-guide.html', header +
-  '<strong><a href="./">readme</a> • style guide • <a href="https://github.com/ngoldman/gfm.css">source</a></strong>' +
+  '<strong><a href="./">readme</a> • style guide • <a href="https://github.com/ungoldman/gfm.css">source</a></strong>' +
   guide + footer, function (err) {
       if (err) throw err
       console.log('built style-guide.html')

@@ -1,16 +1,24 @@
 # gfm.css
 
-[![version][npm-img]][npm-url]
-[![travis][travis-img]][travis-url]
-[![downloads][dl-img]][npm-url]
+[![npm][1]][2]
+[![standard][5]][6]
+[![downloads][7]][2]
 
-[npm-url]: https://www.npmjs.com/package/gfm.css
-[npm-img]: https://img.shields.io/npm/v/gfm.css.svg?style=flat-square
-[dl-img]: https://img.shields.io/npm/dm/gfm.css.svg?style=flat-square
-[travis-url]: https://travis-ci.org/ungoldman/gfm.css
-[travis-img]: https://img.shields.io/travis/ungoldman/gfm.css.svg?style=flat-square
+[1]: https://img.shields.io/npm/v/gfm.css.svg?style=flat-square
+[2]: https://www.npmjs.com/package/gfm.css
+[5]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square
+[6]: http://standardjs.com/
+[7]: https://img.shields.io/npm/dm/gfm.css.svg?style=flat-square
 
 Styles for [github flavored markdown](https://help.github.com/articles/github-flavored-markdown/).
+
+---
+
+⚠️ NO LONGER MAINTAINED ⚠️
+
+Please use [sindresorhus/github-markdown-css](https://github.com/sindresorhus/github-markdown-css) instead.
+
+---
 
 ## Usage
 

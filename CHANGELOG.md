@@ -5,8 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## Unreleased
-* fix broken links from github user change
+## 1.1.2
+
+### Fixes
+* add maintenance warning
+* fix URLs, author info
+
+### Chores
+* update license
+* update change log
+* update readme
 
 ## 1.1.1
 * rebuild CSS for distribution (missing from last release) ಥ_ಥ

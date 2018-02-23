@@ -1,8 +1,8 @@
 {
   "name": "gfm.css",
   "description": "Styles for github flavored markdown.",
-  "version": "1.1.1",
-  "author": "Nate Goldman <ungoldman@gmail.com>",
+  "version": "1.1.2",
+  "author": "Nate Goldman <ungoldman@gmail.com> (https://ungoldman.com/)",
   "bugs": {
     "url": "https://github.com/ungoldman/gfm.css/issues"
   },
@@ -27,14 +27,14 @@
     "style"
   ],
   "license": "ISC",
+  "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ungoldman/gfm.css.git"
+    "url": "git+https://github.com/ungoldman/gfm.css.git"
   },
   "scripts": {
     "build": "node scripts/build.js",
     "test": "standard"
   },
-  "style": "gfm.css",
-  "main": "index.js"
+  "style": "gfm.css"
 }
